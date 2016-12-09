@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D68BC58BEE098C68D87F7B2 /* libPods-BottomContentViewOfScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC84F0E35B69B5B338907A2 /* libPods-BottomContentViewOfScrollView.a */; };
 		D3D962FF1DF93C9A001F9D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D962FE1DF93C9A001F9D9D /* main.m */; };
 		D3D963021DF93C9A001F9D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D963011DF93C9A001F9D9D /* AppDelegate.m */; };
 		D3D963051DF93C9A001F9D9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D963041DF93C9A001F9D9D /* ViewController.m */; };
@@ -14,6 +15,11 @@
 		D3D9630A1DF93C9A001F9D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D963091DF93C9A001F9D9D /* Assets.xcassets */; };
 		D3D9630D1DF93C9A001F9D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D9630B1DF93C9A001F9D9D /* LaunchScreen.storyboard */; };
 		D3D963181DF93C9A001F9D9D /* BottomContentViewOfScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D963171DF93C9A001F9D9D /* BottomContentViewOfScrollViewTests.m */; };
+		D3D963241DF94648001F9D9D /* AutoAdaptiveScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D963231DF94648001F9D9D /* AutoAdaptiveScrollView.m */; };
+		D3D963291DF98E1E001F9D9D /* TrainticketCheckFilterChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D963271DF98E1E001F9D9D /* TrainticketCheckFilterChooseView.m */; };
+		D3D9632A1DF98E1E001F9D9D /* TrainticketCheckFilterSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D963281DF98E1E001F9D9D /* TrainticketCheckFilterSingleView.m */; };
+		D3D9632E1DF9930E001F9D9D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D9632D1DF9930E001F9D9D /* SecondViewController.m */; };
+		D3D963331DF993CA001F9D9D /* sdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D963301DF9934D001F9D9D /* sdfViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23D3FA04750B3A5E45876FF2 /* Pods-BottomContentViewOfScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomContentViewOfScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomContentViewOfScrollView/Pods-BottomContentViewOfScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		2EC84F0E35B69B5B338907A2 /* libPods-BottomContentViewOfScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomContentViewOfScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D962FA1DF93C9A001F9D9D /* BottomContentViewOfScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomContentViewOfScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D962FE1DF93C9A001F9D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3D963001DF93C9A001F9D9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +48,18 @@
 		D3D963131DF93C9A001F9D9D /* BottomContentViewOfScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomContentViewOfScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D963171DF93C9A001F9D9D /* BottomContentViewOfScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomContentViewOfScrollViewTests.m; sourceTree = "<group>"; };
 		D3D963191DF93C9A001F9D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D963221DF94648001F9D9D /* AutoAdaptiveScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAdaptiveScrollView.h; sourceTree = "<group>"; };
+		D3D963231DF94648001F9D9D /* AutoAdaptiveScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAdaptiveScrollView.m; sourceTree = "<group>"; };
+		D3D963251DF98E1E001F9D9D /* TrainticketCheckFilterChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainticketCheckFilterChooseView.h; sourceTree = "<group>"; };
+		D3D963261DF98E1E001F9D9D /* TrainticketCheckFilterSingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainticketCheckFilterSingleView.h; sourceTree = "<group>"; };
+		D3D963271DF98E1E001F9D9D /* TrainticketCheckFilterChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainticketCheckFilterChooseView.m; sourceTree = "<group>"; };
+		D3D963281DF98E1E001F9D9D /* TrainticketCheckFilterSingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainticketCheckFilterSingleView.m; sourceTree = "<group>"; };
+		D3D9632B1DF990C5001F9D9D /* PublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
+		D3D9632C1DF9930E001F9D9D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D3D9632D1DF9930E001F9D9D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D3D9632F1DF9934D001F9D9D /* sdfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdfViewController.h; sourceTree = "<group>"; };
+		D3D963301DF9934D001F9D9D /* sdfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sdfViewController.m; sourceTree = "<group>"; };
+		E2B71C238574EF1E89C222F3 /* Pods-BottomContentViewOfScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomContentViewOfScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BottomContentViewOfScrollView/Pods-BottomContentViewOfScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D68BC58BEE098C68D87F7B2 /* libPods-BottomContentViewOfScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +81,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73D6094C2F04C442630B194C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2B71C238574EF1E89C222F3 /* Pods-BottomContentViewOfScrollView.debug.xcconfig */,
+				23D3FA04750B3A5E45876FF2 /* Pods-BottomContentViewOfScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2EF937078DC079B26389F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EC84F0E35B69B5B338907A2 /* libPods-BottomContentViewOfScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3D962F11DF93C9A001F9D9D = {
 			isa = PBXGroup;
 			children = (
 				D3D962FC1DF93C9A001F9D9D /* BottomContentViewOfScrollView */,
 				D3D963161DF93C9A001F9D9D /* BottomContentViewOfScrollViewTests */,
 				D3D962FB1DF93C9A001F9D9D /* Products */,
+				73D6094C2F04C442630B194C /* Pods */,
+				B2EF937078DC079B26389F59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +121,21 @@
 		D3D962FC1DF93C9A001F9D9D /* BottomContentViewOfScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				D3D9632B1DF990C5001F9D9D /* PublicHeader.h */,
+				D3D963251DF98E1E001F9D9D /* TrainticketCheckFilterChooseView.h */,
+				D3D963261DF98E1E001F9D9D /* TrainticketCheckFilterSingleView.h */,
+				D3D963271DF98E1E001F9D9D /* TrainticketCheckFilterChooseView.m */,
+				D3D963281DF98E1E001F9D9D /* TrainticketCheckFilterSingleView.m */,
 				D3D963001DF93C9A001F9D9D /* AppDelegate.h */,
 				D3D963011DF93C9A001F9D9D /* AppDelegate.m */,
 				D3D963031DF93C9A001F9D9D /* ViewController.h */,
 				D3D963041DF93C9A001F9D9D /* ViewController.m */,
+				D3D9632C1DF9930E001F9D9D /* SecondViewController.h */,
+				D3D9632D1DF9930E001F9D9D /* SecondViewController.m */,
+				D3D9632F1DF9934D001F9D9D /* sdfViewController.h */,
+				D3D963301DF9934D001F9D9D /* sdfViewController.m */,
+				D3D963221DF94648001F9D9D /* AutoAdaptiveScrollView.h */,
+				D3D963231DF94648001F9D9D /* AutoAdaptiveScrollView.m */,
 				D3D963061DF93C9A001F9D9D /* Main.storyboard */,
 				D3D963091DF93C9A001F9D9D /* Assets.xcassets */,
 				D3D9630B1DF93C9A001F9D9D /* LaunchScreen.storyboard */,
@@ -118,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3D9631C1DF93C9A001F9D9D /* Build configuration list for PBXNativeTarget "BottomContentViewOfScrollView" */;
 			buildPhases = (
+				A0DC6993BF0305DA8F4FB3D6 /* [CP] Check Pods Manifest.lock */,
 				D3D962F61DF93C9A001F9D9D /* Sources */,
 				D3D962F71DF93C9A001F9D9D /* Frameworks */,
 				D3D962F81DF93C9A001F9D9D /* Resources */,
+				188643B85490DAD8DF2EA8D6 /* [CP] Embed Pods Frameworks */,
+				1EE0748B9D92961A44514A75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,11 +264,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		188643B85490DAD8DF2EA8D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BottomContentViewOfScrollView/Pods-BottomContentViewOfScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EE0748B9D92961A44514A75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BottomContentViewOfScrollView/Pods-BottomContentViewOfScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DC6993BF0305DA8F4FB3D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3D962F61DF93C9A001F9D9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D963291DF98E1E001F9D9D /* TrainticketCheckFilterChooseView.m in Sources */,
+				D3D963241DF94648001F9D9D /* AutoAdaptiveScrollView.m in Sources */,
+				D3D963331DF993CA001F9D9D /* sdfViewController.m in Sources */,
+				D3D9632A1DF98E1E001F9D9D /* TrainticketCheckFilterSingleView.m in Sources */,
+				D3D9632E1DF9930E001F9D9D /* SecondViewController.m in Sources */,
 				D3D963051DF93C9A001F9D9D /* ViewController.m in Sources */,
 				D3D963021DF93C9A001F9D9D /* AppDelegate.m in Sources */,
 				D3D962FF1DF93C9A001F9D9D /* main.m in Sources */,
@@ -349,10 +456,12 @@
 		};
 		D3D9631D1DF93C9A001F9D9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B71C238574EF1E89C222F3 /* Pods-BottomContentViewOfScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = BottomContentViewOfScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.BottomContentViewOfScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,10 +470,12 @@
 		};
 		D3D9631E1DF93C9A001F9D9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D3FA04750B3A5E45876FF2 /* Pods-BottomContentViewOfScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = BottomContentViewOfScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.BottomContentViewOfScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +527,7 @@
 				D3D9631E1DF93C9A001F9D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3D9631F1DF93C9A001F9D9D /* Build configuration list for PBXNativeTarget "BottomContentViewOfScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +536,7 @@
 				D3D963211DF93C9A001F9D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
